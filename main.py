@@ -111,4 +111,4 @@ async def on_reaction_remove(reaction, user):
         role = discord.utils.find(lambda r: r.name == "Rocket Leage", message.server.roles)
         await client.remove_roles(user, role)
 
-client.run("NDU3Mjg5NDYxMTYwNDc2Njcz.DgkaAQ.OrfHiXa6MLjJuKK4DS8B-mvIm6U")
+client.run("TOKEN")
